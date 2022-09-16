@@ -12,6 +12,7 @@
 		BAE4B78128D4421B00C0ACF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE4B78028D4421B00C0ACF9 /* Assets.xcassets */; };
 		BAE4B78428D4421B00C0ACF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE4B78328D4421B00C0ACF9 /* Preview Assets.xcassets */; };
 		BAE4B78B28D4425B00C0ACF9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4B78A28D4425B00C0ACF9 /* SecondView.swift */; };
+		BAE4B78D28D4474800C0ACF9 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4B78C28D4474800C0ACF9 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BAE4B78028D4421B00C0ACF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE4B78328D4421B00C0ACF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAE4B78A28D4425B00C0ACF9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BAE4B78C28D4474800C0ACF9 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BAE4B78028D4421B00C0ACF9 /* Assets.xcassets */,
 				BAE4B78228D4421B00C0ACF9 /* Preview Content */,
 				BAE4B78A28D4425B00C0ACF9 /* SecondView.swift */,
+				BAE4B78C28D4474800C0ACF9 /* ThirdView.swift */,
 			);
 			path = part7;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE4B78D28D4474800C0ACF9 /* ThirdView.swift in Sources */,
 				BAE4B78B28D4425B00C0ACF9 /* SecondView.swift in Sources */,
 				BAE4B77F28D4421800C0ACF9 /* ContentView.swift in Sources */,
 				BAE4B77D28D4421800C0ACF9 /* part7App.swift in Sources */,

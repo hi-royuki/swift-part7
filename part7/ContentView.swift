@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    //画面遷移させるかさせないかの変数定義
+    @State var isShowThirdView = false
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -15,6 +18,15 @@ struct ContentView: View {
                     .padding()
                 NavigationLink(destination: SecondView().navigationTitle("画面２")) {
                     Text("SecontdViewへ")
+                }
+                Button(action: {
+                    isShowThirdView = true
+                }) {
+                    Text("モーダル遷移")
+                        .padding()
+                }
+                .sheet(isPresented: $isShowThirdView) {
+                    ThirdView()
                 }
             }
             .navigationTitle("画面１")
