@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct ThirdView: View {
+    //ContentViewの変数をThirdViewでも使えるようにする
+    @Binding var isShowThirdView: Bool
     var body: some View {
         ZStack {
             Color(.green)
-            Text("ThirdView")
+            VStack {
+                Text("ThirdView")
+                Button(action: {
+                    print("ボタンが押されたよ")
+                    isShowThirdView = false
+                }) {
+                    Text("ボタン")
+                }
+                
+            }
+            
         }
     }
 }
 
-struct ThirdView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThirdView()
-    }
-}

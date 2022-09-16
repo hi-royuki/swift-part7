@@ -26,7 +26,7 @@ struct ContentView: View {
                         .padding()
                 }
                 .sheet(isPresented: $isShowThirdView) {
-                    ThirdView()
+                    ThirdView(isShowThirdView: $isShowThirdView)
                 }
             }
             .navigationTitle("画面１")
